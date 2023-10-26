@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+</head>
+<body>
+    <script>
+        var x,y,z;
+        x=parseInt(prompt("Enter 1st value"));
+        y=prompt("Enter Operator");
+        z=parseInt(prompt("Enter 2nd value"));
+
+        switch(y){
+            case '+':
+                document.write("the sum is: "+(x+z));
+                break;
+            case '-':
+                document.write("the substraction is: "+(x-z));
+                break;
+            case '*':
+                document.write("the multiplicaction is: "+(x*z));
+                break;
+            case '/':
+                document.write("the division is: "+(x/z));
+                break;
+            default:
+                document.write("something went Wrong");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+<style>
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+        background-color: blanchedalmond;
+    }
+    .btn{
+        text-align: center;
+        margin-top: 10px;
+    }
+    button{
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+        font-weight: bold;
+        border: 1px solid red;
+        border-radius: 10%;
+    }
+    button:hover{
+        border: 1px solid rgb(0, 102, 255);
+        background-color: black;
+        color: aliceblue;
+    }
+    img{
+        padding: 5px;
+        height: -webkit-fill-available;
+        width: auto;
+        margin: 5px;
+        border: 5px double black;
+    }
+    .align{
+        text-align: center;
+        height: -webkit-fill-available;
+    }
+</style>
+</head>
+<body>
+    <div class="align">
+    <img id="change" src="2.jpeg" alt="" />
+</div>
+
+<div class="btn">
+<button onclick="document.getElementById('change').src='3.jpg'">1st Image</button>
+<button onclick="document.getElementById('change').src='1.jpg'">2nd Image</button>
+<button onclick="document.getElementById('change').src='2.jpg'">3rd Image</button>
+</div>
+<br/>
+<br/>
+
+</body>
+</html>

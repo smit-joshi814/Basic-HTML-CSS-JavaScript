@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>js 7</title>
+  </head>
+  <body>
+    <script language="javascript">
+      function fact() {
+        var fa = 1,no;
+        no = prompt("enter number");
+        while (no >= 1) {
+          fa = fa * no;
+          no--;
+        }
+        document.write("the factorial of the given number is " + fa);
+      }
+    </script>
+    <button onclick="fact()">Find the factorial</button>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>js6</title>
+  </head>
+  <body>
+    <script language="javascript">
+      function color() {
+        document.write("successfully changed background");
+        var color;
+        color = prompt("enter number", "1");
+        color = parseInt(color);
+        switch (color) {
+          case 1: {
+            document.bgColor = "blue";
+            break;
+          }
+          case 2: {
+            document.bgColor = "green";
+            break;
+          }
+          case 3: {
+            document.bgColor = "Pink";
+            break;
+          }
+          case 4: {
+            document.bgColor = "Orange";
+            break;
+          }
+          default: {
+            alert("please enter number beatween 1 to 4");
+          }
+        }
+      }
+    </script>
+    <button onclick="color()">color changer</button>
+  </body>
+</html>
